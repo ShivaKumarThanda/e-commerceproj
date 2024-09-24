@@ -1,0 +1,36 @@
+* {
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  padding: 50px;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  background-color: black;
+}
+
+/* .heading{
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+/* a {
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+.locmap{
+  background-image: url('/images/map.jpeg');
+  background-size: 300px;
+  height: 200px;
+  width: 300px;
+}
+/* .dash{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+} */
+.head{
+    font-weight: 100;
+    font-size: 50px;
+}
+
+

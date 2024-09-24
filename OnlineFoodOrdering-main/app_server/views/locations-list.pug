@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/itemList.css')
+    .row.banner
+        .col-12
+            h1.head Food Hut
+            h2.heading Find the best food here...
+
+    .row
+        .col-12.col-md-8
+            .card
+                .card-block
+
+                    each item in items
+                        .item-block
+                            h4
+                                
+                                a(href="/location/" +item.id)= item.name 
+                                br
+                                span.price price: #{item.price}
+                                br
+                                span.rating(style="color:black;") Rating: #{item.rating} 
+                                br
+                                img(src=item.image style="height:150px;")   
+                        br                
+        .col-12.col-md-4
